@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>TinDog</title>
+</head>
+
+<body>
+    <div class="width-container" id="body">
+        <header class="header-bar height-15 flex">
+            <div class="header-icon-container"> <img class="icon-image" id="profile-id" src="images/icon-profile.png"
+                    alt="profile icon">
+            </div>
+            <div class="header-logo-container"> <img class="icon-image" src="images/logo.png" alt="Tindog logo"></div>
+            <div class="header-icon-container"> <img class="icon-image" src="images/icon-chat.png" alt="Chatbox icon">
+            </div>
+        </header>
+
+        <div>
+            <img class="image-badge" id="image-reject" src="images/badge-nope.png" alt="reject sticker">
+        </div>
+        <div>
+            <img class="image-badge" id="image-like" src="images/badge-like.png" alt="reject sticker">
+        </div>
+
+
+        <aside class="sidebar profile-container-hidden" id="sidebar">
+        </aside>
+
+
+
+        <main id="main-content-id" class="main-content">
+        </main>
+        <footer class="footer height-15 flex">
+            <div class="border-icon border-glow-red" id="reject-button"><img src="images/icon-cross.png"
+                    alt="Reject icon"></div>
+            <div class="border-icon border-glow-green" id="like-button"><img src="images/icon-heart.png"
+                    alt="Like icon"></div>
+        </footer>
+    </div>
+
+
+    <script src="/index.js" type="module"></script>
+</body>
+
+</html>
